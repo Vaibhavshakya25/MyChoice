@@ -19,10 +19,9 @@
     width: 60vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 2em;
-height: 80vh;
     color: white;
 }
 .selldiv{
