@@ -10,6 +10,7 @@
     border: 1px solid black;
     padding: 1rem;
     width: 60vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: greenyellow;
@@ -31,10 +32,13 @@
 .price{
     border: 1px solid red;
     padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: white;
 }
 .rate{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-collapse: collapse;
     display: flex;
     justify-content: left;
