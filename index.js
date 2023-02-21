@@ -6,5 +6,5 @@ sell.addEventListener('click',()=>{
 })
 
 buy.addEventListener('click',()=>{
-    console.log('Buy button press');
+    window.location.href = "buy.html";
 })
