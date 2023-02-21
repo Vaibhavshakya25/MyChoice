@@ -1,0 +1,53 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#heading{
+    color: purple;
+    font-size: 2em;
+}
+#para{
+    color: purple;
+}
+.card{
+    background-color: greenyellow;
+    padding: 2em;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+height: 80vh;
+    color: white;
+}
+.selldiv{
+    background-color: white;
+    color: black;
+    border: 2px solid purple;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#newbuy{
+    width: 100%;
+    border: 2px solid purple;
+    border-radius: 2rem;
+    text-align: center;
+    color: purple;
+    font-size: 2em;
+}
+.price{
+    font-size: 1.6em;
+    display: inline;
+}
+#pricetext{
+    margin-left: 4px;
+}
