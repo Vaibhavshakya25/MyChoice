@@ -5,7 +5,7 @@
     width: 100vw;
     height: 100vh;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 .button{
     border: 1px solid black;
@@ -21,4 +21,7 @@
 }
 h1{
     color: brown;
+}
+#image{
+    width: 20%;
 }
