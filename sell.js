@@ -4,9 +4,9 @@ let minimum_discount = document.getElementById('min-dis');
 let cp = null;
 price.addEventListener('input',()=>{
    cp = (100/(100+100))*price.value;
-   original_price.innerHTML = Math.round(cp);
+   original_price.innerHTML = `${Math.round(cp)} ₹`;
 });
 price.addEventListener('input',()=>{
    let min = ((100+60)/100)*cp;
-   minimum_discount.innerHTML = Math.round(min);
+   minimum_discount.innerHTML = `${Math.round(min)} ₹`;
 })
