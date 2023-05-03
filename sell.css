@@ -90,6 +90,7 @@
         width: 80%;
         border: 2px solid brown;
         color: brown;
+        font-weight: bold;
     }
     #rate-chat-tag{
         color: brown;
