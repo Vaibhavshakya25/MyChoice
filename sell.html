@@ -11,20 +11,23 @@
 <body>
     <div class="wrapper">
         <div class="card"> 
-            <input type="number" id="sell-price"  placeholder="Selling Price">
-            <button class="btn"  onclick="getdata()">Add</button>
-            <h2 class="rate-chat-tag">Rate Chart</h2>
-            <!-- <img src="logo.jpeg" alt="logo" id="image"> -->
-            <div class="price">
-                <div class="rate">
-                    <h3 class="real">Original Price : </h3>
-                    <p class="rate-text" id="ori-price">0</p>
-                </div>
-                <div class="rate">
-                    <h3 class="real">Minimum Discount :</h3>
-                    <p class="rate-text" id="min-dis">0</p>
+            <div class="box">
+                <h2 class="rate-chat-tag">Rate Chart</h2>
+                <input type="number" id="sell-price"  placeholder="Selling Price">
+                <button class="btn"  onclick="getdata()">Add</button>
+                <!-- <img src="logo.jpeg" alt="logo" id="image"> -->
+                <div class="price">
+                    <div class="rate">
+                        <h3 class="real">Original Price : </h3>
+                        <p class="rate-text" id="ori-price">0</p>
+                    </div>
+                    <div class="rate">
+                        <h3 class="real">Minimum Discount :</h3>
+                        <p class="rate-text" id="min-dis">0</p>
+                    </div>
                 </div>
             </div>
+            <div class="box">
                 <h2 class="calculate-tag">Caluclate Cloth's</h2>
                 <input type="number" class="sell" id="input-price" placeholder="Add Item Price" >
                 <button class="btn"  onclick="add()">Add</button>
@@ -38,6 +41,7 @@
                         <p class="rate-text" id="added-tag">0</p>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <script src="sell.js"></script>

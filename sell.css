@@ -13,15 +13,22 @@
     width: 50%;
 }
 .card{
-    border: 1px solid brown;
-    padding: 1rem;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     gap: 1em;
     flex-direction: column;
     background-color: wheat;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
 }
 #sell-price{
     width: 50%;
@@ -49,7 +56,7 @@
 .rate-chat-tag{
     color: brown;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .price{
     width: 50%;
@@ -81,7 +88,7 @@
     color: green;
 }
 .calculate-tag{
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: brown;
     text-align: center;
 }
@@ -105,15 +112,26 @@
     .wrapper{
         width:100vw;
         height: 100vh;
+        overflow-x: hidden;
     }
     .card{
         width:100%;
         height: 100%;
         display: flex;
         flex-direction: column;
+        padding: 1rem;
         align-items: center;
+        justify-content: space-evenly;
         background-color: wheat;
         gap: 0.8em;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        width: 100%;
     }
     #sell-price{
         width: 80%;
