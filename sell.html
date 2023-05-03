@@ -11,7 +11,8 @@
 <body>
     <div class="wrapper">
         <div class="card"> 
-            <input type="number" class="sell-price" placeholder="Selling Price">
+            <input type="number" id="sell-price"  placeholder="Selling Price">
+            <button class="btn"  onclick="getdata()">Add</button>
             <h2 class="rate-chat-tag">Rate Chart</h2>
             <!-- <img src="logo.jpeg" alt="logo" id="image"> -->
             <div class="price">
@@ -25,7 +26,7 @@
                 </div>
             </div>
                 <h2 class="calculate-tag">Caluclate Cloth's</h2>
-                <input type="number" class="sell-price" id="input-price" placeholder="Add Item Price" >
+                <input type="number" class="sell" id="input-price" placeholder="Add Item Price" >
                 <button class="btn"  onclick="add()">Add</button>
                 <div class="price">
                     <div class="rate">

@@ -5,16 +5,15 @@ let add_price = document.getElementById('input-price');
 let add_btn = document.getElementById('add_btn');
 let added_price = document.getElementById('added-tag');
 let items = document.getElementById('items');
-let cp,amount = null;
+let amount = null;
 let item = null;
-price.addEventListener('input',()=>{
-   cp = (100/(100+100))*price.value;
-   original_price.innerHTML = `${Math.round(cp)} ₹`;
-});
-price.addEventListener('input',()=>{
+function getdata(){
+   let cp = (100/(100+100))*parseInt(price.value);
    let min = ((100+60)/100)*cp;
+   original_price.innerHTML = `${Math.round(cp)} ₹`;
    minimum_discount.innerHTML = `${Math.round(min)} ₹`;
-});
+   price.value = "";
+}
 item = 0;
 amount = 0;
 function add(){
